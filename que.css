@@ -1,0 +1,64 @@
+/* Estilos para el encabezado */
+body {
+    background-color: #ecc7bc; /* Cambia el color de fondo de la página */
+    margin: 20; /* Elimina los márgenes predeterminados del cuerpo */
+    padding: 20; /* Elimina el relleno predeterminado del cuerpo */
+}
+header {
+    background-color: #9f3b60; /* Cambia el color de fondo del encabezado */
+    color: white; /* Cambia el color del texto del encabezado */
+    padding: 20px; /* Añade relleno al encabezado */
+}
+
+/* Estilos para el fondo de la página */
+
+
+nav {
+    background-color: #6f5536;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #488fa7;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #482b44;
+}
+/* Estilos para el h1 */
+
+h1 {
+    color: black; /* Color del texto negro */
+    font-size: 45px; /* Tamaño de la fuente 16px */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+        /* Estilo para el botón */
+        .boton-video {
+            padding: 10px 20px;
+            background-color: #8b545492;
+            color: rgb(42, 43, 44);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Estilo para el botón al pasar el cursor */
+        .boton-video:hover {
+            background-color: #4e053e;
+        }

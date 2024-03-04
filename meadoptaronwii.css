@@ -1,0 +1,45 @@
+.imagen-enlace1 {
+    transition: transform 0.2s ease; /* Transición suave al hacerla más grande */
+}
+
+.imagen-enlace1:hover {
+    transform: scale(1.1); /* Hace la imagen un 10% más grande al pasar el cursor */
+}
+
+nav {
+    background-color: #6f5536;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #488fa7;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #482b44;
+}
+
+body {
+    background-color: #0d502d57; /* Cambia el color de fondo de la página */
+    margin: 20; /* Elimina los márgenes predeterminados del cuerpo */
+    padding: 20; /* Elimina el relleno predeterminado del cuerpo */
+}
+h1 {
+    color: black; /* Color del texto negro */
+    font-size: 45px; /* Tamaño de la fuente 16px */
+    text-align: center; /* Alineación del texto al centro */
+}
